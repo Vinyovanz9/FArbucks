@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come Join Us!</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="FArbucks">
+            <img src="images/logo.png" alt="Image Not Loaded">
+        </a>
+    
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="Menu.html">coffee</a>
+            <a href="Event.html">events</a>
+            <a href="About.html">about</a>
+            <a href="#">register</a>
+        </nav>
+    </header>
+
+    <!-- Register  -->
+    <section class="register" id="register">
+
+        <h1 class="heading"> <span>Register</span> Now! </h1>
+
+        <div class="row">
+            <div class="img"></div>
+
+            <form action="">
+                <h3>come join us!</h3>
+                <div class="inputBox">
+                    <input type="text" name="Name" class="form-control" id="userFullName" placeholder="Full Name" required/>
+                </div>
+                
+                <div class="error-msg" id="error_msg1"></div>
+
+                <div class="inputBox">
+                    <input type="email" name="Email" class="form-control" id="userEmail" placeholder="Email" required/>
+                </div>
+                
+                <div class="error-msg" id="error_msg2"></div>
+
+                <div class="inputBox">
+                    <input type="password" placeholder="Password" class="form-control" id="userPassword" placeholder="Password" required/>
+                </div>
+
+                <div class="error-msg" id="error_msg3"></div>
+
+                <div class="inputBox">
+                    <input type="text" name="Adress" class="form-control" id="userAdress" placeholder="Your Adress" required/>
+                </div>
+
+                <div class="error-msg" id="error_msg4"></div>
+
+                <div class="terms">
+                    <input type="checkbox" placeholder="Agree"> <h9>I Agree with terms and conditions</h9> 
+                </div>
+                
+                <input type="submit" value="Submit" class="btn">
+            </form>
+
+    </section>
+
+    <!-- Footer  -->
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="facebook"> <img src="./images/facebook.png" alt="Image Not Loaded"></a>
+            <a href="#" class="twitter"> <img src="images/twitter.png" alt="Image Not Loaded"></a>
+            <a href="#" class="instagram"> <img src="./images/instagram.png" alt="Image Not Loaded"></a>
+        </div>
+
+        <div class="credit"><span>© FArbucks 2022</span> | all rights reserved</div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
